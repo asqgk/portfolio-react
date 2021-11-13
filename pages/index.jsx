@@ -1,3 +1,4 @@
+import Menu from "../components/Menu";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Skills from "../components/Skills";
@@ -11,13 +12,15 @@ import ScrollUp from "../components/ScrollUp";
 export default function Home() {
   return (
     <>
+      <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+      
+      <title>Portfolio React</title>
 
-      <title>Portfolio Website</title>
+      <body>
+        <Menu />
 
-      <div className="body">
-        <Hero />
-
-        <main className="main">
+        <main>
+          <Hero />
           <About />
           <Skills />
           <Qualification />
@@ -29,13 +32,7 @@ export default function Home() {
         <Footer />
         <ScrollUp />
 
-
-        {/* <!--==================== SWIPER JS ====================--> */}
-        {/* <script src="assets/js/swiper-bundle.min.js"></script> */}
-
-        {/* <!--==================== MAIN JS ====================--> */}
-        {/* <script src="assets/js/main.js"></script> */}
-      </div>
+      </body>
       
     </>
   )

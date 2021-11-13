@@ -33,7 +33,7 @@ export default function About() {
                     <div className="about__buttons">
                         <a
                             download
-                            href="assets/pdf/Francisco-Cv.pdf"
+                            href="pdf/Francisco-Cv.pdf"
                             className="button button--flex"
                         >
                             Download CV
